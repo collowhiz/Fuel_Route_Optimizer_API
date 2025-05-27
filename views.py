@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+
 # route_api/views.py
 
 
@@ -20,7 +20,7 @@ import openrouteservice
 from openrouteservice import convert
 
 # Initialize once with your API key
-client = openrouteservice.Client(key='5b3ce3597851110001cf624897df5e91e0c44d3088eb301b1f3913e7')
+client = openrouteservice.Client(key='.....')
 
 
 def route_api(request):
